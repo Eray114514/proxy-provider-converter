@@ -1,5 +1,5 @@
 {
-  "installCommand": "npx pnpm@10.34.4 install --frozen-lockfile",
+  "installCommand": "corepack pnpm install --frozen-lockfile",
   "buildCommand": "pnpm run build",
   "outputDirectory": "dist"
 }
